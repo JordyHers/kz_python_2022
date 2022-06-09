@@ -20,20 +20,20 @@ Odev 2.
 You have 4 hotels. Each one has its values.
 Location, Price, Comfort, Visitors note, Distance from the beach, Number of rooms, 
 if they have a Swimming pool (yes or no).
-After you have created the four hotels, print which hotel's name is the longest 
+After, print which hotel's name is the longest 
 and how many letters it has. Print each letter using [0],[1].... n,
 Then print the average of all the hotel prices. Sum up all the prices and 
 print which hotel is more expensive than the average.
 Then you create a hotel. Write all its values and print it.
 
 
-У вас есть 4 гостиницы. У каждого свои значения. 
-Расположение, Цена, Комфорт, Внимание посетителей, Расстояние от пляжа, Количество комнат, 
-если у них есть бассейн (да или нет).
-После того, как вы создали четыре отеля, выведите название отеля, 
-которое самое длинное и сколько в нем букв. Выведите каждую букву, используя [0],[1].... n,
-Затем выведите среднее значение всех цен на отели. Просуммируйте все цены и выведите, какой 
-из отелей дороже среднего.
+У вас есть 4 гостиницы. У каждого свои значения.
+Местоположение, Цена, Комфорт, Внимание посетителей, Удаленность от пляжа, Количество комнат,
+есть ли у них бассейн (да или нет).
+После печати название какого отеля самое длинное
+и сколько в нем букв. Выведите каждую букву, используя [0],[1].... n,
+Затем выведите среднее значение всех цен на отели. Суммируйте все цены и
+выведите какой отель дороже среднего.
 Затем вы создаете отель. Запишите все его значения и распечатайте.
 
 Цена будет в строке, вы должны использовать кастинг, чтобы преобразовать ее в значение с плавающей запятой.
