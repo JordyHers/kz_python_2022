@@ -1,14 +1,14 @@
-Python Tutorial
-Python HOME
-Python Intro
-Python Get Started
-Python Syntax
-Python Comments
-Python Variables
-Python Data Types
-Python Numbers
-Python Casting
-Python Strings
+X Python Tutorial
+X Python HOME
+X Python Introduction
+X Python Get Started
+X Python Syntax
+X Python Comments
+X Python Variables
+X Python Data Types
+X Python Numbers
+X Python Casting str() float(75) => 75.0
+X Python Strings
 Python Booleans
 Python Operators
 Python Lists
