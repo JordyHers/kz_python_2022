@@ -4,12 +4,12 @@ Odev 1:
 Найди ошибки, чтобы пробежать успешно.
 """
 
-name = 'Payton
-age = 25
-country = float('USA')
-job = 'Doctor'
+# name = 'Payton
+# age = 25
+# country = float('USA')
+# job = 'Doctor'
 
-print(" This is ", name, 'He is ',age ,' years old, and I am a ', job)
+# print(" This is ", name, 'He is ',age ,' years old, and I am a ', job)
 
 
 
@@ -57,7 +57,9 @@ DoubletreeHotel = {'location' : 'Izmir', 'price':'1400', 'confort':'Very confort
 """
 Odev 3:
 
-Найдите, существуют ли в тексте слова из следующего списка. Если слово существует, добавьте 3 к его длине, если слово не существует, вычтите 3. Затем выведите только окончательный результат. конечным результатом является сумма всех существующих слов, умноженная на сумму всех слов, которых нет в списке.
+Найдите, существуют ли в тексте слова из следующего списка. Если слово существует, добавьте 3 к его длине, если слово не существует, вычтите 3. 
+Затем выведите только окончательный результат. 
+конечным результатом является сумма всех существующих слов, умноженная на сумму всех слов, которых нет в списке.
 
                [admitting, Projecting, leverage, apartements, circumstances , physicality, perpetual, resolution,visitors, savage,literature,himself,carriage, vascular, ashamed, prestigious]
 
