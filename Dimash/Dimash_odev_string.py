@@ -3,7 +3,7 @@
 email_1= '    Yetinat@@gmail.COM   '
 EX1=(email_1.strip())
 EX2=(EX1.lower())
-EX3=(EX2.replace("@",""))
+EX3=(EX2.replace("@","",1))
 print(EX3)
 #2
 email_2='Ainur45@hotMAIL.com'
