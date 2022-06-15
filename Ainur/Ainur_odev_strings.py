@@ -1,3 +1,5 @@
+#💯______________
+
 email_1= '    Yetinat@@gmail.COM   '
 step1_1 = (email_1.strip())
 step1_2 = (step1_1.lower())
