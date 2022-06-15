@@ -1,11 +1,11 @@
-#odev  
+#odev  Dimash
 #1
 email_1= '    Yetinat@@gmail.COM   '
 EX1=(email_1.strip())
 EX2=(EX1.lower())
 EX3=(EX2.replace("@",""))
 print(EX3)
-#2
+#2 
 email_2='Ainur45@hotMAIL.com'
 EX4=(email_2.lower())
 print(EX4)
