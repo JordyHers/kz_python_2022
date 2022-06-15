@@ -1,4 +1,4 @@
-#odev  Dimash
+#odev
 #1
 email_1= '    Yetinat@@gmail.COM   '
 EX1=(email_1.strip())
