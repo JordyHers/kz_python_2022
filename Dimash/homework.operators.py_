@@ -1,0 +1,10 @@
+
+person1 = {'name':'Jordy','surname':'Hershel','height':'1.75m','weight':'75Kg','color':'black','job':'teacher','salary':"2500 $",'country':'Turkey','birth_date':"12.09.1987"}
+
+person2 = {'name':' jordy ','surname':'HERSHEL','height':"1.75",'weight':"75.0",'color':'dark','job':'ogretmen','salary':"2500", 'country': 'Istanbul','birth_date':'12/09/1987'}
+
+print(person2['name'].strip().capitalize(),person2['surname'].capitalize(),person2['height'].replace("1.75","1.75m"),person2['weight'].replace('75.0','75Kg'),person2['color'].replace('dark','black'),person2['job'].replace('ogretmen','teacher'),person2['salary'].replace('2500','2500$'),person2['country'].replace('Turkey','Istanbul'),person2['birth_date'].replace('12/09/1987','12.09.1987'))
+
+print(person1 is person2)
+print(person1 is not person2)
+print(person1 or person2)
