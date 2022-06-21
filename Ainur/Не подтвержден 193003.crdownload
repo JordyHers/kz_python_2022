@@ -1,0 +1,15 @@
+"""
+Dictionary
+Elementy slovarya uporyadocheny, neizmenyami i ne dopuskayut dublirovaniya
+"""
+Jordy = {'name':'Jordy', 'surname':'Hershel', 'birth_place': 'Turkey'}
+Dimash = {'name':'Dimash', 'surname':'Omar', 'birth_place': 'Kazakhstan'}
+
+Car = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1789
+}
+print(Jordy['name'])
+print(Dimash['name'])
+print(len(Car))
