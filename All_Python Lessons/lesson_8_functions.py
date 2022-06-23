@@ -38,3 +38,33 @@ my_function("Dimash")
 my_function("Ainur")
 my_function("Jordy")
 
+# def my_name(name):
+#     print('My name is ' + name)
+
+# def my_age(age):
+#     print('I am {} years old'.format(age))
+   
+# print('What is your name ?')
+# my_name('Dimash Omar')
+# print('How old are you?')
+# my_age(25)
+
+#Hesap Makinesi
+
+# benim Funksiyon
+def addition(num1,num2): #добавление
+    print('Сложение двух значений: {}'.format(num1 + num2))
+
+def subtraction(num1,num2): #вычитание
+    print('Сложение двух значений: {}'.format(num1 - num2))
+"""
+Modulus %
+Floor division //
+Exponentiation 2**3 = 2 x 2 x 2
+"""
+
+#________________
+numara1 = 78
+numara2 = 90
+numara3 = 24
+addition(5,3)
