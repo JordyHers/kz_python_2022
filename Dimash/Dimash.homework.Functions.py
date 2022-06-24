@@ -28,6 +28,6 @@ def multiplication(num3,sun4):
 print('This multiplication of {}'.format(num3*num4))
 
 def division(num3,sun4):
-    sum=(num3**num4)
+    sum=(num3/num4)
 print('This division of {}'.format(num3/num4))
 
