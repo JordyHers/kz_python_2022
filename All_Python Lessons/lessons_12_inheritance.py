@@ -48,8 +48,45 @@ for name in list_names:
         print('isBoss: {}'.format(person.isBoss()))
         print('No Salary, Not a Boss')
         
+#_________________________________________________________________
+#Baba sinifi
+class Hayvanlar:
+    def __init__(self,isim,kilo,boy,renk,tip='yerde'):
+        self.isim = isim
+        self.kilo = kilo
+        self.boy = boy
+        self.renk = renk
+        self.tip = tip
+    
+    def yemek(self):
+        print('{} yemek yiyebilirim'.format(self.isim))
+        
+    def uyumak(self):
+        saat = int((self.kilo * 0.20)/5)
+        print('{} saat uyuyabilirim'.format(saat))
+
+# Cocuk sinifi
+class YerdeHayvanlar(Hayvanlar):
+    def surun(self):
+        return True
+        
+    def zipla(self):
+        return True
+        
+    def kos(self):
+        return True
+class UcanHayvanlar(YerdeHayvanlar):
+    def ucmak(self):
+        print('орел gibi ucabnilirim')
         
         
+kopek_balik = Hayvanlar('kopek_balik',100,'2.3m','gri','su')
+antilop = YerdeHayvanlar('antilop',150,'1.5m','kahverengi')
+kartal = UcanHayvanlar('kartal',70,'78cm','kahverengi','ucan')
+print(kartal.kos())
+
+
+
 # jordy = Boss('Jordy','Hershel',3000)   
 # name = jordy.getFullName()   
  
