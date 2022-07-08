@@ -5,3 +5,8 @@ class Person:
 
     def getFullName(self):
         print('{} {}'.format(self))
+
+    def state():
+        print('state')
+
+
