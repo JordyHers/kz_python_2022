@@ -46,17 +46,17 @@ print(num)
 
 Чтобы использовать его, вы должны импортировать математический модуль:
 """
-import math
+# import math
 
-# x = √20
-x = math.sqrt(36)
-print(x)
+# # x = √20
+# x = math.sqrt(36)
+# print(x)
 
-x = math.ceil(7.01) #8
-y = math.floor(18.99999) #18
-print(x,y)
+# x = math.ceil(7.01) #8
+# y = math.floor(18.99999) #18
+# print(x,y)
 
-pi = math.pi
-print(pi)
+# pi = math.pi
+# print(pi)
 
 

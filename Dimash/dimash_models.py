@@ -7,6 +7,7 @@ class Person:
         print('{} {}'.format(self))
 
     def state():
-        print('state')
+        print('state') 
+    
 
 
