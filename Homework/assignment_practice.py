@@ -38,6 +38,9 @@ class Fruits:
         expirationDate = datetime.datetime(2022,month,int(day))
         print('This {} will expire in {}'.format(self.name,expirationDate))
 
-
+    def calculatePrice(self):
+        price = self.price + (self.price * 0.22)
+        print(' The final price is: {} TL'.format(price))
+        
 muz = Fruits('Muz',13.0,datetime.datetime.now())
 muz.calculateExpirationDate()
