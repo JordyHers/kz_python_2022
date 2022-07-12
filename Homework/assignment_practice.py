@@ -24,6 +24,7 @@ The function will then print the result.
 #models.py function
 import datetime
 
+
 class Fruits:
     def __init__(self,name,price,startingDate):
         self.name = name
