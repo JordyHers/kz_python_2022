@@ -6,7 +6,6 @@ import pandas as pd
 import numpy as np
 
 
-
 print("pandas version: {}".format(pd.__version__))
 
 # Pandas icin Series kelimesi kullaniyoruz (Sutun)
