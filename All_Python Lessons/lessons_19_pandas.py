@@ -4,12 +4,9 @@ CSV file
 """
 import pandas as pd
 import numpy as np
-import config 
-import sys
-import os
 
-path= os.path.dirname(sys.argv[0])
-output= os.path.join(path,config.__package__)
+
+
 print("pandas version: {}".format(pd.__version__))
 
 # Pandas icin Series kelimesi kullaniyoruz (Sutun)
@@ -42,7 +39,7 @@ print(df_data)
 6    Sanzhar        50     50
 """
 try:
-    df_data.to_csv(output,encoding='latin1')
+    df_data.to_csv('/Users/jordyhers/python_lessons/kz_python_2022/CSV/data.csv',encoding='utf-8')
     print('Sizin dosyaniz kaydedildi.')
     #print(output)
 except:
